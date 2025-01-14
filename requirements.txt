@@ -1,4 +1,4 @@
 fastapi==0.95.2
 uvicorn==0.22.0
-g4f
+g4f==0.4.1.0
 python-multipart

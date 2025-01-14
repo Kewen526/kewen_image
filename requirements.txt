@@ -1,5 +1,3 @@
 fastapi==0.95.2
 uvicorn==0.22.0
-# 如果 g4f 没有正式发布到 PyPI，可能需要用 git+... 或者手动安装
-# 假设你能直接 pip install g4f，则:
-g4f==0.2.14
+g4f

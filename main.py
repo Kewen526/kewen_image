@@ -28,7 +28,7 @@ async def chat_completion(
 
         # 3. 调用 g4f: 必须显式传递 model 参数（如 "gpt-3.5-turbo"）
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o",
             messages=[{"role": "user", "content": prompt}],
             system_prompt="",
             images=image_data
